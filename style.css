@@ -19,8 +19,9 @@ body{
     align-items: flex-start; 
     gap: 55px; 
     display: inline-flex;  
-    color: rgba(0, 0, 0, 0.80); 
-    font-size: 24px; 
+    color: rgba(0, 0, 0, 0.80);
+    font-size: 16px;
+    margin-top: 30px;
     font-family: Inter; 
     font-weight:bold; 
     padding-right: 55px;
@@ -47,7 +48,7 @@ nav ul li:hover{
 .Elevating{
     margin-bottom:0px ;
     color: #C08B89; 
-    font-size: 64px; 
+    font-size: 48px; 
     font-family: Inter; 
     font-weight: 600; 
     word-wrap: break-word;
@@ -65,7 +66,7 @@ nav ul li:hover{
 }
 .description{
     color: rgba(0, 0, 0, 0.80);
-    font-size: 32px;
+    font-size: 28px;
     font-family: Inter;
     font-weight: 400;
     word-wrap: break-word;
@@ -77,14 +78,14 @@ nav ul li:hover{
 }
 .Whoweare{
     color: rgba(0, 0, 0, 0.80);
-    font-size: 48px;
+    font-size: 38px;
     font-family: Inter;
     font-weight: bold;
     word-wrap: break-word
 }
 .span2{
     color: #C08B89;
-    font-size: 96px;
+    font-size: 60px;
 }
 .flex-2{
     padding: 0 60px 0 150px;
@@ -92,7 +93,7 @@ nav ul li:hover{
 }
 .Whoweare-des{
     color: rgba(0, 0, 0, 0.80);
-    font-size: 28px;
+    font-size: 20px;
     font-family: Inter;
     font-weight: 300;
     word-wrap: break-word
@@ -107,7 +108,7 @@ nav ul li:hover{
 .comp-serv{
     text-align: center;
     color: rgba(0, 0, 0, 0.80); 
-    font-size: 48px; 
+    font-size: 38px; 
     font-family: Inter; 
     font-weight: bold; 
     text-transform: uppercase; 
@@ -120,7 +121,7 @@ nav ul li:hover{
 .func{
     text-align: center;
     color: rgba(0, 0, 0, 0.80); 
-    font-size: 40px; 
+    font-size: 28px; 
     font-family: Inter; 
     padding-top: 55px;
     font-weight: bolder;  
@@ -181,7 +182,7 @@ nav ul li:hover{
 }
 .func1{
     color: rgba(0, 0, 0, 0.80); 
-    font-size: 40px; 
+    font-size: 35px; 
     font-family: Inter; 
     padding-top: 55px;
     font-weight: bolder;  
@@ -189,7 +190,7 @@ nav ul li:hover{
 }
 .experience{
     color: black;
-    font-size: 24px;
+    font-size: 25px;
     font-family: Inter;
     font-weight: 300;
     word-wrap: break-word
@@ -205,7 +206,8 @@ nav ul li:hover{
     word-wrap: break-word
 }
 .container2{
-    padding: 0 100px 0 100px;
+    padding: 0 30px 0 50px;
+    margin-left: 50px;
 }
 .section6{
     display: flex;
@@ -221,21 +223,21 @@ nav ul li:hover{
 }
 .func2{
     color: white;
-    font-size: 48px;
+    font-size: 38px;
     font-family: Inter;
     font-weight: 600;
     word-wrap: break-word
 }
 .support{
     color: rgba(0, 0, 0, 0.80);
-    font-size: 24px;
+    font-size: 20px;
     font-family: Inter;
     font-weight: bold;
     word-wrap: break-word
 }
 .func3-p{
     color: white;
-    font-size: 24px;
+    font-size: 15px;
     font-family: Inter;
     font-weight: 400;
     word-wrap: break-word
@@ -368,7 +370,7 @@ nav ul li:hover{
         overflow: hidden;
     }   
     .nav-bar.active{
-        height: 300px;
+        height: 250px;
     }
     .nav-bar ul{
         display: block;
@@ -435,6 +437,7 @@ nav ul li:hover{
     .func{
         font-size: 1rem;
         padding: 30px 0px 0px 0px;
+        margin:20px;
     }
     .container{
         padding: 15px 15px 15px 15px;
@@ -446,7 +449,13 @@ nav ul li:hover{
         padding: 0;
     }
     .com-soon{
-        border-radius: 0;
+        width: 85%;
+        margin:25px;
+        background-color: hsl(19, 100%, 96%); 
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); 
+        border-radius: 16px;
+        justify-content: center;
+        text-align: center;
             }
     .img-com-soon{
         background-size: 300px;
@@ -460,11 +469,11 @@ nav ul li:hover{
     }
     .container2{
         width:75%;
-        padding: 0 25px;
+        padding: 0px 25px 20px 25px;
         text-align: center;
     }
     .func1{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .experience{
         font-size: 1rem;
@@ -482,6 +491,9 @@ nav ul li:hover{
         margin-left: 20px;
         margin-top: 50px;
    }
+    .span2{
+        font-size: 48px;
+    }
    .section7{
     padding: 30px;
     margin-top: 30px;
