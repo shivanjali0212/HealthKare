@@ -206,7 +206,7 @@ nav ul li:hover{
     word-wrap: break-word
 }
 .container2{
-    padding: 0 30px 0 30px;
+    margin-right:50px;
     margin-left: 50px;
 }
 .section6{
@@ -214,8 +214,8 @@ nav ul li:hover{
 }
 .back-ground1{
     position: absolute; 
-    margin-top: 150px; 
-    margin-left: 150px;
+    margin-top: 160px; 
+    margin-left: 60px;
 }
 .section7{
     background-color: #C08B89;
