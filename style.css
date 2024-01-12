@@ -526,6 +526,9 @@ nav ul li:hover{
     width: 90%;
     height: 100%;
    }
+   .btn{
+       margin-left:15px;
+   }
    .img{
     width: 90%;
    }
